@@ -24,3 +24,21 @@ const getComputerChoice = () => {
     return "scissors";
   }
 };
+
+const determineWinner = (userChoice, computerChoice) => {
+    if (userChoice = computerChoice) {
+     return "It's a tie."; 
+    } else if (userChoice = "rock") {
+        if (computerChoice = "paper") {
+          return "Computer wins.";
+        } else {return "You win!"};
+    } else if (userChoice = "paper") {
+        if (computerChoice = "scissors") {
+          return "Computer wins.";
+        } else {return "You win!"};
+    } else if (userChoice = "scissors") {
+        if (computerChoice = "rock") {
+          return "Computer wins.";
+        } else {return "You win"};
+    } 
+  };
